@@ -1,0 +1,1 @@
+("~/dev/tyr/" "~/dev/cl/resistormatcher/" "~/Downloads/Telegram Desktop/" "~/dev/rust/compiler/" "~/dev/cl/wfrks/" "~/.emacs.d/" "~/dev/go-psql-react-redux-boilerplate/")

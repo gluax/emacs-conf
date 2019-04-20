@@ -1,0 +1,26 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/gluax/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/gluax/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/gluax/.emacs.d/" (23684 38502 939308 691000) "./" "auto-save-list/" "elpa/" "init.el" "../" "init.el~" "eshell/" "tramp")
+
+ ("/home/gluax/" (23684 36320 943607 159000) "configurations/" ".xinitrc" ".mozilla/" ".jupyter/" "nltk_data/" ".lyrics/" ".zcompdump" ".pki/" ".cache/" ".histfile" ".emacs.d/" ".nvm/" "Pictures/" "./" "jp_resume.pdf" ".Xauthority" ".local/" ".config/" ".go/" ".lesshst" ".viminfo" ".mongorc.js" ".bashrc" ".dbshell" ".Xresources" ".3T/" ".zcompdump-gluax-5.6.2" ".node-gyp/" "Qt/" ".bash_logout" "../" "music/" ".node_repl_history" "Downloads/" ".ssh/" ".gitconfig" ".nmcli-history" "dev/" ".zcompdump-archiso-5.7.1" "Desktop/" ".rustup/" ".bash_history" ".thunderbird/" "notebooks/" ".gnupg/" ".zsh_history" ".bash_profile" ".zcompdump-gluax-5.7.1" ".zshrc" "bin/" "school/" ".xinitrc~" ".npm/" "go/" ".esd_auth" ".babel.json" ".fehbg" ".julia/" ".standard-v12-cache/" ".python_history" "temp/" ".mpd/" ".ncmpcpp/" ".ipython/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

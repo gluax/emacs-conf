@@ -1,0 +1,11 @@
+* Default Workspace
+** tyr
+ - path :: /home/gluax/dev/tyr
+** go-psql-react-redux-boilerplate
+ - path :: /home/gluax/dev/go-psql-react-redux-boilerplate
+** .emacs.d
+ - path :: /home/gluax/.emacs.d
+** compiler
+ - path :: /home/gluax/dev/rust/compiler
+** wfrks
+ - path :: /home/gluax/dev/cl/wfrks

@@ -1,0 +1,24 @@
+#+REVEAL_THEME: solarized
+
+#+TITLE: Sample Presentation
+#+AUTHOR: Jonathan Pavlik
+
+* Slide 1
+Some sample text.
+* Slide 2
+** subslide 1
+** subslide 2
+* Slide 3
+  #+ATTR_REVEAL: :frag (roll-in)
+  - List item 1
+  - List item 2
+    | a | b | c |
+    |---+---+---|
+    | 1 | 2 | 3 |
+    | 4 | 5 | 6 |
+    |---+---+---|
+* Slide 4
+#+BEGIN_SRC emacs-lisp
+  (defun foo (x) (+ x 1))
+  (foo 5)
+#+END_SRC

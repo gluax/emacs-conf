@@ -1,0 +1,23 @@
+# Created 2019-03-14 Thu 15:12
+#+TITLE: Sample Presentation
+#+AUTHOR: Jonathan Pavlik
+#+reveal_theme: solarized
+
+* Slide 1
+Some sample text.
+* Slide 2
+** subslide 1
+** subslide 2
+* Slide 3
+- List item 1
+- List item 2
+  | a | b | c |
+  |---+---+---|
+  | 1 | 2 | 3 |
+  | 4 | 5 | 6 |
+  |---+---+---|
+* Slide 4
+#+begin_src emacs-lisp
+  (defun foo (x) (+ x 1))
+  (foo 5)
+#+end_src

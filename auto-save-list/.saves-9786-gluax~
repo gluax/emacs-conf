@@ -1,0 +1,6 @@
+/sudo:root@gluax:/usr/share/X11/xorg.conf.d/10-evdev.conf
+/tmp/#!sudo:root@gluax:!usr!share!X11!xorg.conf.d!10-evdev.conf#
+/usr/share/X11/xorg.conf.d/10-evdev.conf
+/usr/share/X11/xorg.conf.d/#10-evdev.conf#
+/usr/share/X11/xorg.conf.d/40-libinput.conf
+/usr/share/X11/xorg.conf.d/#40-libinput.conf#
