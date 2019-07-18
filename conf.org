@@ -630,3 +630,16 @@ more at the link.
     (add-hook 'rust-mode-hook 'flycheck-mode))
 #+end_src
 
+* Work Stuff
+#+begin_src emacs-lisp
+  (add-to-list 'load-path "~/.emacs.d/manual/")
+
+  (autoload 'lua-mode "lua-mode" "Lua editing mode." t)
+  (add-to-list 'auto-mode-alist '("\\.lua$" . lua-mode))
+  (add-to-list 'interpreter-mode-alist '("lua" . lua-mode))
+
+  (autoload 'jenkinsfile-mode "jenkinsfile-mode" "Jenkinsfile editing mode." t)
+  (add-to-list 'auto-mode-alist '("^Jekinsfile" . jenkinsfile-mode))
+  (add-to-list 'interpreter-mode-alist '("jekinsfile" . jenkinsfile-mode))
+#+end_src
+

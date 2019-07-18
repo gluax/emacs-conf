@@ -528,3 +528,13 @@
   :config
   (add-hook 'flycheck-mode-hook #'flycheck-rust-setup)
   (add-hook 'rust-mode-hook 'flycheck-mode))
+
+(add-to-list 'load-path "~/.emacs.d/manual/")
+
+(autoload 'lua-mode "lua-mode" "Lua editing mode." t)
+(add-to-list 'auto-mode-alist '("\\.lua$" . lua-mode))
+(add-to-list 'interpreter-mode-alist '("lua" . lua-mode))
+
+(autoload 'jenkinsfile-mode "jenkinsfile-mode" "Jenkinsfile editing mode." t)
+(add-to-list 'auto-mode-alist '("^Jekinsfile" . jenkinsfile-mode))
+(add-to-list 'interpreter-mode-alist '("jekinsfile" . jenkinsfile-mode))
