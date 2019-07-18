@@ -1,5 +1,5 @@
 (setq user-full-name "Jon Pavlik"
-      user-mail-address "jonathan.t.pavlik@gmail.com")
+      user-mail-address "jonathan.pavlik@mastercard.com")
 
 (global-set-key (kbd "\e\ec")
                 (lambda () (interactive) (find-file "~/docs/orgfiles/gcal.org")))
@@ -21,10 +21,11 @@
 (setq inhibit-splash-screen t)
 (setq inihbit-startup-screen t)
 
-;; disable menu bars and scroll bar 
+;; disable menu bars and scroll bar
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 (toggle-scroll-bar -1)
+(toggle-frame-fullscreen)
 
 ;; highlights line mode
 ;; (global-hl-line-mode 1)
@@ -243,20 +244,12 @@
 
 (setq org-capture-templates
       '(
-        ("a" "Appointment" entry (file+headline "~/docs/orgfiles/gcal.org" "Appointments:")
-         "* TODO %?\n:PROPERTIES:\n\n:END:\n:DEADLINE: %^T \n %i\n")
-        ("g" "Game Idea" entry (file+headline "~/docs/orgfiles/games.org" "Game Ideas:")
-         "* TODO %?\n:PROPERTIES:\n\n:END:\n:DEADLINE: %^T \n %i\n")
         ("l" "Link" entry (file+headline "~/docs/orgfiles/links.org" "Links:")
-         "* %? [[%^{Link}][%^{Description}]] %^g")
-        ("m" "Memes" entry (file+headline "~/docs/orgfiles/memes.org" "Memes:")
          "* %? [[%^{Link}][%^{Description}]] %^g")
         ("n" "Notes" entry (file+headline "~/docs/orgfiles/notes.org" "Notes:")
          "* %u %?" :prepend t)
         ("t" "Projectile Projects" entry (file "~/docs/orgfiles/projects.org")
          "* %^{Project Path}")
-        ("s" "Story Idea" entry (file+headline "~/docs/orgfiles/stories.org" "Story Ideas:")
-         "* TODO %?\n:PROPERTIES:\n\n:END:\n:DEADLINE: %^T \n %i\n")
         ))
 
 (defun load-projectile-projects-from-org (file)
@@ -447,14 +440,6 @@
 (use-package git-timemachine
   :ensure t)
 
-(use-package pdf-tools
-  :ensure t
-  :config
-  (pdf-tools-install))
-
-(use-package org-pdfview
-  :ensure t)
-
 (use-package dictionary
   :ensure t)
 
@@ -481,6 +466,7 @@
   :init
   (global-flycheck-mode))
 
+(setq inferior-lisp-program "sbcl")
 (use-package sly
   :ensure t)
 

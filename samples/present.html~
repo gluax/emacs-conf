@@ -7,9 +7,9 @@
 <style type="text/css">
 .underline { text-decoration: underline; }
 </style>
-<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.6.0/css/reveal.css"/>
 
-<link rel="stylesheet" href="./reveal.js/css/theme/solarized.css" id="theme"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.6.0/css/theme/solarized.css" id="theme"/>
 
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
@@ -18,7 +18,7 @@
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = './reveal.js/css/print/pdf.css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js@3.6.0/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
     }
 </script>
@@ -26,51 +26,51 @@
 <body>
 <div class="reveal">
 <div class="slides">
-<section id="sec-title-slide"><h1 class="title">Sample Presentation</h1><h2 class="author">Jonathan Pavlik</h2><p class="date">Created: 2019-03-14 Thu 15:13</p>
+<section id="sec-title-slide"><h1 class="title">Sample Presentation</h1><h2 class="author">Jonathan Pavlik</h2><p class="date">Created: 2019-07-17 Wed 12:42</p>
 </section>
 <section id="table-of-contents">
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#/slide-org3fae47b">1. Slide 1</a></li>
-<li><a href="#/slide-orga41a37b">2. Slide 2</a>
+<li><a href="#/slide-org3af5c54">1. Slide 1</a></li>
+<li><a href="#/slide-orgaaa2fe5">2. Slide 2</a>
 <ul>
-<li><a href="#/slide-orgbb63794">2.1. subslide 1</a></li>
-<li><a href="#/slide-org0315c4d">2.2. subslide 2</a></li>
+<li><a href="#/slide-org241553d">2.1. subslide 1</a></li>
+<li><a href="#/slide-orgf7abdef">2.2. subslide 2</a></li>
 </ul>
 </li>
-<li><a href="#/slide-orgea9ca93">3. Slide 3</a></li>
-<li><a href="#/slide-orge948ff3">4. Slide 4</a></li>
+<li><a href="#/slide-org490b1cd">3. Slide 3</a></li>
+<li><a href="#/slide-org3aa94a0">4. Slide 4</a></li>
 </ul>
 </div>
 </div>
 </section>
 
 <section>
-<section id="slide-org3fae47b">
-<h2 id="org3fae47b"><span class="section-number-2">1</span> Slide 1</h2>
+<section id="slide-org3af5c54">
+<h2 id="org3af5c54"><span class="section-number-2">1</span> Slide 1</h2>
 <p>
 Some sample text.
 </p>
 </section>
 </section>
 <section>
-<section id="slide-orga41a37b">
-<h2 id="orga41a37b"><span class="section-number-2">2</span> Slide 2</h2>
+<section id="slide-orgaaa2fe5">
+<h2 id="orgaaa2fe5"><span class="section-number-2">2</span> Slide 2</h2>
 <div class="outline-text-2" id="text-2">
 </div>
 </section>
-<section id="slide-orgbb63794">
-<h3 id="orgbb63794"><span class="section-number-3">2.1</span> subslide 1</h3>
+<section id="slide-org241553d">
+<h3 id="org241553d"><span class="section-number-3">2.1</span> subslide 1</h3>
 </section>
-<section id="slide-org0315c4d">
-<h3 id="org0315c4d"><span class="section-number-3">2.2</span> subslide 2</h3>
+<section id="slide-orgf7abdef">
+<h3 id="orgf7abdef"><span class="section-number-3">2.2</span> subslide 2</h3>
 </section>
 </section>
 <section>
-<section id="slide-orgea9ca93">
-<h2 id="orgea9ca93"><span class="section-number-2">3</span> Slide 3</h2>
+<section id="slide-org490b1cd">
+<h2 id="org490b1cd"><span class="section-number-2">3</span> Slide 3</h2>
 <ul>
 <li>List item 1</li>
 <li><p>
@@ -112,8 +112,8 @@ List item 2
 </section>
 </section>
 <section>
-<section id="slide-orge948ff3">
-<h2 id="orge948ff3"><span class="section-number-2">4</span> Slide 4</h2>
+<section id="slide-org3aa94a0">
+<h2 id="org3aa94a0"><span class="section-number-2">4</span> Slide 4</h2>
 <div class="org-src-container">
 
 <pre  class="src src-emacs-lisp">(<span style="color: #fa8072;">defun</span> <span style="color: #7b68ee; font-weight: bold;">foo</span> (x) (+ x 1))
@@ -124,8 +124,8 @@ List item 2
 </section>
 </div>
 </div>
-<script src="./reveal.js/lib/js/head.min.js"></script>
-<script src="./reveal.js/js/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.6.0/lib/js/head.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.6.0/js/reveal.js"></script>
 
 <script>
 // Full list of configuration options available here:
@@ -152,11 +152,11 @@ multiplex: {
 
 // Optional libraries used to extend on reveal.js
 dependencies: [
- { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
- { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
- { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.6.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.6.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.6.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.6.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.6.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
 });
 </script>
 </body>
