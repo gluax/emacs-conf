@@ -1,1 +1,1 @@
-("~/.emacs.d/")
+("~/Documents/cli-tests/java/" "~/Documents/examples/" "~/Documents/cli-tests/go/" "~/Documents/cc-azure-pipeline-tests/" "~/.emacs.d/")

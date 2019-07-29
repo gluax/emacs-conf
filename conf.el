@@ -538,3 +538,11 @@
 (autoload 'jenkinsfile-mode "jenkinsfile-mode" "Jenkinsfile editing mode." t)
 (add-to-list 'auto-mode-alist '("^Jekinsfile" . jenkinsfile-mode))
 (add-to-list 'interpreter-mode-alist '("jekinsfile" . jenkinsfile-mode))
+
+(autoload 'nginx-mode "nginx-mode" "Nginx editing mode." t)
+(add-to-list 'auto-mode-alist '("\\.conf$" . nginx-mode))
+(add-to-list 'interpreter-mode-alist '("nginx" . nginx-mode))
+
+(autoload 'yaml-mode "yaml-mode" "Yaml editing mode." t)
+(add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
+(add-to-list 'interpreter-mode-alist '("yaml" . yaml-mode))
